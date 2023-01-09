@@ -1,0 +1,29 @@
+{
+    "aws":{
+        "credentials":{
+            "access_key":"AKIAW...",
+            "secret_key":"skqZZ2n4...",
+            "region": "eu-west-1"
+        },
+        "ec2_type":{
+            "seqs":"t2.micro",
+            "pipe":"c5.9xlarge"
+        },
+        "ami":{
+            "id_nxfl":"ami-0c0a...",
+            "id_sqs":"ami-0778..."
+        },
+        "keys":{
+            "key_pair_name":"nextflow"
+        },
+        "segurity_groups":{
+            "id":"sg-01e...."
+        },
+        "subnets":{
+            "id":"subnet-0599..."
+        },
+        "s3_bucket_seqs":{
+            "name":"triggersnextflow"
+        }
+    }
+}
